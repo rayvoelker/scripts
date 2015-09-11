@@ -56,7 +56,6 @@ page.open(url, function (status) {
 		// wait for 5 seconds and then close the script ...
 		window.setTimeout( function(){
 			phantom.exit(0);
-		}, 5000);
-		
+		}, 5000);		
     }
 }); //end page.open
