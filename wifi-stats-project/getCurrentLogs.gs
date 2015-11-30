@@ -57,6 +57,7 @@ function getCurrentLogs() {
       // before we output the data to the new sheet.
       
       range.setValues(csv);
+      return true;
       
     } //end if
   } //end if
