@@ -18,11 +18,11 @@ function uploadFiles(form) {
     var submit_email = Session.getActiveUser().getEmail();
     
     // this is the main self submission folder under which other folders will be created
-    var self_sub_folder_id = "0B6Qj9cWTBfR9a0xNV2MxakhySWs";
+    var self_sub_folder_id = "PUT_FOLDER_ID_HERE";
     var self_sub_folder = DriveApp.getFolderById(self_sub_folder_id);
         
     // this is the main sheet where we will store metadata for the submissions
-    var self_sub_ss_id = "1mX50j6UrQybWWTImc_9GLTi-_szKmTGqDM__hxk36Q0";
+    var self_sub_ss_id = "PUT_SHEET_ID_HERE";
     var self_sub_spreadsheet = SpreadsheetApp.openById(self_sub_ss_id);
     // Logger.log(self_sub_spreadsheet.getName());
     
